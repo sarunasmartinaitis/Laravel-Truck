@@ -21,3 +21,14 @@ The application allows users to assign a subunit to a main truck for a specific 
 - The main truck and subunit truck can't be the same.
 - The dates of the subunit must not overlap with existing subunit dates of the main truck.
 - If the main truck is a subunit of another truck, it can't have its own subunit during that period.
+
+## Routes
+
+- Display trucks: `GET /`
+- Create a new truck: `GET /trucks/create`
+- Store a new truck: `POST /trucks`
+- Edit a truck: `GET /trucks/{truck}/edit`
+- Update a truck: `PUT /trucks/{truck}`
+- Delete a truck: `DELETE /trucks/{truck}`
+- Create subunits: `GET /subunits/create`
+- Store subunits: `POST /subunits`
